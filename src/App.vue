@@ -22,7 +22,7 @@
         >
           <div>
             <img
-              src="https://avatars.githubusercontent.com/u/122380441?v=4"
+              src="../images/profile-picture.png"
               alt="Lindokuhle Mtengwane"
               class="w-30 h-30 rounded-4xl mb-4"
             />
@@ -116,7 +116,7 @@
         </header>
 
         <!-- RIGHT COLUMN: Scrolling Content -->
-        <main class="pt-24 lg:w-1/2 lg:py-24">
+        <main class="pt-24 ml-2 lg:w-1/2 lg:py-24">
           <!-- ABOUT SECTION -->
           <section
             id="about"
@@ -512,22 +512,22 @@ const projects = [
     "A modern, responsive banking dashboard built with HTML, Tailwind CSS, and JavaScript. Features real-time transaction updates, interactive charts, and a sleek user interface for managing finances.",
     ["JavaScript", "Tailwind CSS", "HTML5"],
     "https://cache-bank.netlify.app",
-    "https://via.placeholder.com/500x300?text=Project+1",
+    "../images/cache-bank.png",
   ],
   [
-    "Van Life",
-    "A responsive blog template for van life enthusiasts, built with React, Tailwind CSS, and JavaScript. Showcases travel stories, tips, and a gallery of van conversions with a clean, modern design.",
-    ["React", "JavaScript", "Tailwind CSS"],
-    "https://example.com/project",
-    "https://via.placeholder.com/500x300?text=Project+2",
+    "Agile Board",
+    "A task planner and project management tool inspired by Trello, built with Vue, Javascript and CSS. Allows users to create boards, lists, and cards for organizing tasks and collaborating with teams.",
+    ["Vue", "JavaScript", "CSS"],
+    "https://agileboardapp.netlify.app",
+    "../images/agile-board.png",
   ],
-  [
-    "Project Name",
-    "Brief description of the project.",
-    ["Tech1", "Tech2", "Tech3"],
-    "https://example.com/project",
-    "https://via.placeholder.com/500x300?text=Project+3",
-  ],
+  // [
+  //   "Van Life",
+  //   "A responsive blog template for van life enthusiasts, built with React, Tailwind CSS, and JavaScript. Showcases travel stories, tips, and a gallery of van conversions with a clean, modern design.",
+  //   ["React", "JavaScript", "Tailwind CSS"],
+  //   "https://example.com/project",
+  //   "https://via.placeholder.com/500x300?text=Project+3",
+  // ],
 ];
 
 const handleMouseMove = (e) => {

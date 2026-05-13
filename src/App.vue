@@ -22,7 +22,7 @@
         >
           <div>
             <img
-              src="../images/profile-picture.png"
+              src="/images/profile-picture.png"
               alt="Lindokuhle Mtengwane"
               class="w-30 h-30 rounded-4xl mb-4"
             />
@@ -483,7 +483,16 @@ const experience = [
 ];
 
 const skills = {
-  frontend: ["Vue.js", "React", "JavaScript", "Tailwind CSS", "HTML5", "CSS3", "Shopify Liquid", "jQUERY"],
+  frontend: [
+    "Vue.js",
+    "React",
+    "JavaScript",
+    "Tailwind CSS",
+    "HTML5",
+    "CSS3",
+    "Shopify Liquid",
+    "jQUERY",
+  ],
   backend: [
     "PHP",
     "Node.js",
@@ -512,21 +521,21 @@ const projects = [
     "A modern, responsive banking dashboard built with HTML, Tailwind CSS, and JavaScript. Features real-time transaction updates, interactive charts, and a sleek user interface for managing finances.",
     ["JavaScript", "Tailwind CSS", "HTML5"],
     "https://cache-bank.netlify.app",
-    "../images/cache-bank.png",
+    "/images/cache-bank.png",
   ],
   [
     "Agile Board",
     "A task planner and project management tool inspired by Trello, built with Vue, Javascript and CSS. Allows users to create boards, lists, and cards for organizing tasks and collaborating with teams.",
     ["Vue", "JavaScript", "CSS"],
     "https://agileboardapp.netlify.app",
-    "../images/agile-board.png",
+    "/images/agile-board.png",
   ],
   [
     "Mbiphi Services",
     "A responsive landing page for a tender business, built with React, JavaScript, and Tailwind CSS. Showcases the company's services, fleet, and contact information with a clean and modern design.",
     ["React", "JavaScript", "Tailwind CSS"],
     "https://mbiphiservices.netlify.app",
-    "../images/mbiphi.png",
+    "/images/mbiphi.png",
   ],
 ];
 

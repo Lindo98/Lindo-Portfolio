@@ -373,7 +373,7 @@
                       <img
                         :src="project[4]"
                         :alt="project[0]"
-                        class="w-full h-30 object-cover hover:opacity-80 transition-opacity"
+                        class="w-full h-40 object-cover hover:opacity-80 transition-opacity"
                       />
                     </a>
                   </div>
@@ -483,7 +483,7 @@ const experience = [
 ];
 
 const skills = {
-  frontend: ["Vue.js", "React", "JavaScript", "Tailwind CSS", "HTML5", "CSS3"],
+  frontend: ["Vue.js", "React", "JavaScript", "Tailwind CSS", "HTML5", "CSS3", "Shopify Liquid", "jQUERY"],
   backend: [
     "PHP",
     "Node.js",
@@ -521,13 +521,13 @@ const projects = [
     "https://agileboardapp.netlify.app",
     "../images/agile-board.png",
   ],
-  // [
-  //   "Van Life",
-  //   "A responsive blog template for van life enthusiasts, built with React, Tailwind CSS, and JavaScript. Showcases travel stories, tips, and a gallery of van conversions with a clean, modern design.",
-  //   ["React", "JavaScript", "Tailwind CSS"],
-  //   "https://example.com/project",
-  //   "https://via.placeholder.com/500x300?text=Project+3",
-  // ],
+  [
+    "Mbiphi Services",
+    "A responsive landing page for a tender business, built with React, JavaScript, and Tailwind CSS. Showcases the company's services, fleet, and contact information with a clean and modern design.",
+    ["React", "JavaScript", "Tailwind CSS"],
+    "https://mbiphiservices.netlify.app",
+    "../images/mbiphi.png",
+  ],
 ];
 
 const handleMouseMove = (e) => {
